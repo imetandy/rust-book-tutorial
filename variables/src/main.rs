@@ -20,12 +20,12 @@ fn main() {
 
     // tuples
     let tup: (i32, f64, u8) = (500, 6.4, 1);
-    let (x, y, z) = tup; // destructuring
+    let (_x, y, _z) = tup; // destructuring
     println!("The value of y is: {y}");
     let b = tup.0;
     println!("The value of tup.0 is: {b}");
     // arrays
-    let arr: [i32; 5] = [1,2,3,4,5];
+    let _arr: [i32; 5] = [1,2,3,4,5];
 
     // functions
     another_function(5);
